@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: Logika.RegisterLogikaTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.777 sec <<< FAILURE! - in Logika.RegisterLogikaTest
+testUnetiUbazu(Logika.RegisterLogikaTest)  Time elapsed: 0.223 sec  <<< ERROR!
+java.lang.ExceptionInInitializerError: null
+	at com.sun.javafx.application.PlatformImpl.runLater(PlatformImpl.java:273)
+	at com.sun.javafx.application.PlatformImpl.runLater(PlatformImpl.java:268)
+	at com.sun.javafx.application.PlatformImpl.setPlatformUserAgentStylesheet(PlatformImpl.java:550)
+	at com.sun.javafx.application.PlatformImpl.setDefaultPlatformUserAgentStylesheet(PlatformImpl.java:512)
+	at javafx.scene.control.Control.<clinit>(Control.java:87)
+	at javafx.scene.control.DialogPane.createContentLabel(DialogPane.java:167)
+	at javafx.scene.control.DialogPane.<init>(DialogPane.java:218)
+	at javafx.scene.control.Dialog.<init>(Dialog.java:506)
+	at javafx.scene.control.Alert.<init>(Alert.java:245)
+	at javafx.scene.control.Alert.<init>(Alert.java:223)
+	at Logika.RegisterLogika.unetiUbazu(RegisterLogika.java:23)
+	at Logika.RegisterLogikaTest.testUnetiUbazu(RegisterLogikaTest.java:20)
+
